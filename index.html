@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch Web Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="stopwatch">
+      <p class="eyebrow">SkillCraft Task 02</p>
+      <h1>Stopwatch</h1>
+
+      <div class="time-display" id="display">00:00:00.00</div>
+
+      <div class="controls">
+        <button class="btn primary" id="startBtn">Start</button>
+        <button class="btn" id="pauseBtn">Pause</button>
+        <button class="btn danger" id="resetBtn">Reset</button>
+        <button class="btn" id="lapBtn">Lap</button>
+      </div>
+
+      <div class="laps-panel">
+        <div class="laps-header">
+          <h2>Lap Times</h2>
+          <span id="lapCount">0 laps</span>
+        </div>
+        <ol class="lap-list" id="lapList"></ol>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
